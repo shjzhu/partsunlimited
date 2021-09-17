@@ -33,5 +33,5 @@ build-and-deploy:
     with:
         app-name: 'partsunlimited-web-20'
         slot-name: 'staging'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a00d49c7adc84a028ccc74ff431024d5 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_49f9e3009f274701b5f14f2dc0dead60  }}
         package: ${{env.DOTNET_ROOT}}/myapp
